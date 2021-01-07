@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="chat online">
+  <meta name="robots" content="index,follow">
+
+  <!-- title -->
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- link -->
+  <link rel="icon" type="img/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+    <section class="container">
+      <article class="container__content-left">
+        <div class="main__oval-left"></div>
+        <div class="container__phone" >
+          <div class="container__font">
+            <div class="container__header-phone">
+              <div class="container__top"></div>
+              <div class="container__bottom">
+                <div class="container__bottom-ico">
+                  <i id="fas" class="fas fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="container__bottom-content">
+                  <figure class="container__bottom-figure">
+                    <img src="./img/avatar.jpg" alt="" class="container__bottom-image">
+                  </figure>
+                  <div class="container__bottom-copys">
+                    <p class="container__bottom-copy">
+                      Samuel Green
+                    </p>
+                    <p class="container__bottom-copy container__bottom-copy--two">
+                      Available to Walk
+                    </p>
+                  </div>
+                </div>
+                <div class="container__bottom-ico container__bottom-ico--mod ">
+                  ⋮
+                </div>
+              </div>
+            </div>
+            <div class="container__mensages">
+              <div class="container__mess" data-aos="fade-left">
+                <p class="container__copy">
+                  That sounds great. I’d be happy with that.
+                </p>
+              </div>
+              <div class="container__mess container__mess--two" data-aos="fade-left">
+                <p class="container__copy">
+                  Could you send over some pictures of your dog, please?
+                </p>
+              </div>
+              <div class="container__mess container__mess--mod container__mess--three" data-aos="fade-right">
+                <figure class="container__figure">
+                  <img src="./img/dog-image-1.jpg" alt="" class="container__image">
+                </figure>
+                <figure class="container__figure">
+                  <img src="./img/dog-image-2.jpg" alt="" class="container__image">
+                </figure>
+                <figure class="container__figure">
+                  <img src="./img/dog-image-3.jpg" alt="" class="container__image">
+                </figure>
+              </div>
+              <div class="container__mess container__mess--mod container__mess--four container__mess--three" data-aos="fade-right">
+                <p class="container__copy container__copy--mod">
+                  Here are a few pictures. She’s a happy girl!
+                </p>
+              </div>
+              <div class="container__mess container__mess--mod container__mess--five container__mess--three container__mess--two" data-aos="fade-right">
+                <p class="container__copy container__copy--two container__copy--mod">
+                  Can you make it?
+                </p>
+              </div>
+              <div class="container__mess container__mess--six" data-aos="fade-left">
+                <p class="container__copy container__copy--three">
+                  She looks so happy! The time we discussed works. How long shall I take her out for?
+                </p>
+              </div>
+              <div class="container__mess container__mess--seven" data-aos="fade-left">
+                <div class="content__menssage">
+                  <div class="content__menssage__circle  "></div>
+                  <p class="content__menssage__copy">
+                    30 minute walk
+                  </p>
+                  <span class="container__mess__number">
+                    $29
+                  </span>
+                </div>
+              </div>
+              <div class="container__mess container__mess--seven container__mess--two" data-aos="fade-left">
+                <div class="content__menssage">
+                  <div class="content__menssage__circle  "></div>
+                  <p class="content__menssage__copy content__menssage__copy--mod">
+                    1 hour walk
+                  </p>
+                  <span class="container__mess__number">
+                    $49
+                  </span>
+                </div>
+              </div>
+              <div class="container__mess container__mess--nine" >
+                <div class="container__nine">
+                  <p class="container__nine__copy">
+                    Type a message…
+                  </p>
+                  <p class="container__nine__ico">
+                    <span class="container__nine__span">
+                      <i class="fas fa-angle-right" aria-hidden="true"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="container__content-right">
+        <div class="contentr">
+          <div class="main__oval-right"></div>
+        </div>
+        <div class="conten">
+          <h3 class="container__content-right__title">
+            Simple booking
+          </h3>
+          <p class="container__content-right__copy">
+            Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+            discuss arrangements and make bookings. Once the walk has been completed you can rate 
+            your walker and book again all through the chat.
+          </p>
+        </div>
+      </article>
+    </section>
+    
+  </main>
+
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.facebook.com/ronalds.quispeespinosa.9/">Quispe Espinoza Silver</a>.
+    </div>
+  </footer>
+
+    <script src="https://kit.fontawesome.com/70c56172b6.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+          duration:1000
+        }
+      );
+      
+    </script>
+</body>
+</html>
