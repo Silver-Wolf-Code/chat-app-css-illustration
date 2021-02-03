@@ -322,9 +322,19 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-bottom: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.attribution--two{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 90%;
+}
+.attribution--two{
+  display: none;
 }
 @media only screen and (max-width:1050px){
   .container__content-right__copy{
@@ -372,11 +382,12 @@ body {
     width: 80%;
   }
   .footer{
-    position: absolute;
-    bottom: -70%; 
-    width: 100%;
-    z-index: 9999;
+    display: none;
   }
+  .attribution{
+    display: initial;
+  }
+  
 }
 @media only screen and (max-width:375px){
   .main__oval-left{
@@ -390,5 +401,8 @@ body {
   .container__content-right__title{
     width: 100%;
     font-size: 4rem;
+  }
+  .main{
+    height: 150vh;
   }
 }
